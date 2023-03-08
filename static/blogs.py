@@ -1,5 +1,5 @@
 from typing import Dict, List
-from models.blog import Blog
+from blog.schemas import Blog
 
 BLOGS: List[Blog] = [
     {
