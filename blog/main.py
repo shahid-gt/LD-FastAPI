@@ -11,4 +11,5 @@ app = FastAPI()
 
 @app.post('/blog')
 def create_blog(request: Blog):
-    return request
+    blogs.Blog.append(request)
+    return blogs
