@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from typing import Union
 from static import blogs
 
+
 app = FastAPI()
 
 
